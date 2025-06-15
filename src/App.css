@@ -1,0 +1,188 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.bolt{
+    height: 10vh;
+    width: 10vw;
+    position: absolute;
+    top: 55%;
+    left: 40%;
+}
+
+
+.motion_div{
+    width: 45vw;
+    height: auto;
+    background-color: aquamarine;
+    position: absolute;
+    left: 45%;
+    top: 10%;
+
+}
+
+.motion_div_1{
+    width: 45vw;
+    height: auto;
+    background-color: rgb(127, 136, 255);
+    position: absolute;
+    left: 45%;
+    top: 60%;
+
+}
+.motion_div_2{
+    width: 45vw;
+    height: auto;
+    background-color: rgb(255, 127, 187);
+    position: absolute;
+    left: 45%;
+    top: 79%;
+
+}
+
+
+.motion_div_3{
+    width: 45vw;
+    height: auto;
+    background-color: rgb(168, 127, 255);
+    position: absolute;
+    left: 45%;
+    top: 101%;
+
+}
+
+.work_div{
+  background-image: url('../../../work_bg.jpg');
+   height: 110vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
+}
+
+.skills_cert{
+  background-image: url('../../../skills_bg.jpg');
+  height: 150vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  /* overflow: scroll; */
+}
+
+
+.input_side{
+  font-size: xx-large;
+    position: fixed;
+    top: 22%;
+    left: 1%;
+}
+li{
+  padding-bottom: 15px;
+  padding-left: 10px;
+}
+
+.my_exp{
+border-radius: 10px 10px 10px 10px ;
+    position: absolute;
+    left: 25%;
+    margin-top: 25px;
+}
+
+.input_show{
+  font-size: xx-large;
+  
+  /* margin-top: 5%; */
+}
+.icon{
+    position: fixed;
+    left: 2%;
+    top: 5%;
+}
+
+
+.input_show_1{
+    font-size: xx-large;
+     position: absolute;
+    top: 10%;
+    left: 45%;
+
+}
+.Education_head{
+      position: absolute;
+    left: 33%;
+    top: 10%;
+    font-size: xx-large;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.circle{
+    width: 60%;
+    background-color: #f8b1d6;
+    position: absolute;
+    left: 20%;
+    height: 40vh;
+    border-style: dotted;
+  /* border-radius: 10%; */
+  border-width:10ph;
+  border-color: blue;
+ border-top-left-radius: 30%;
+  border-bottom-right-radius: 30%;
+}
+
+
+.para{
+      position: absolute;
+    left: 5%;
+    top: 24%;
+    right: 5%;
+}
+
+
+.About{
+  background-color: gray;
+  height: 100vh;
+  
+}
+
+.Education_div{
+  background-image: url('B:\workspace\portfolio\bg_college.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+}
+
+
+.main_div{
+      position: absolute;
+    left: 27%;
+    top: 25%;
+        height: 50%;
+    width: 50%;
+}
+
+.Portfolio_main_div{
+  background-image: url('B:\workspace\portfolio\bg_3.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;  
+  /* width: 100vw; */
+  height: 100vh;
+}
+.name{
+
+    font-size: x-large;
+    font-family: sans-serif;
+    margin-bottom: 5%;
+}
+
+
+.sub_text{
+    position: absolute;
+    top: 30%;
+    left: 66%;
+
+}
