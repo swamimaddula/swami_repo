@@ -3,10 +3,6 @@
   "version": "0.1.0",
   "private": true,
   "homepage": "https://swamimaddula.github.io/swami_repo",
-  "scripts": {
-  "predeploy": "npm run build",
-  "deploy": "gh-pages -d build"
-},
   "dependencies": {
     "@reduxjs/toolkit": "^2.8.2",
     "@testing-library/dom": "^10.4.0",
@@ -42,9 +38,6 @@
     "predeploy": "npm run build",
   "deploy": "gh-pages -d build"
   },
-
-
-  
   "eslintConfig": {
     "extends": [
       "react-app",
