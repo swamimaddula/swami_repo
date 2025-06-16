@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import logo from './logo.svg';
 import './App.css';
 import './index.css';
-import { Link, Route,BrowserRouter as Router, Routes, useNavigate } from 'react-router-dom';
+import { Link, Route,HashRouter as Router, Routes, useNavigate } from 'react-router-dom';
 import Home from './Components/Home';
 import About from './Components/About';
 import Popup from './Components/Popup';
