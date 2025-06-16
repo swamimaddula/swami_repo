@@ -37,11 +37,11 @@ const location = useLocation();
 <div className='sub_text'>
 
       <div className="sub_sub font-bold text-white text-center">
-        <h1 className='name'>VENKATA RAMANA SWAMI MADDULA</h1>
+        <h1 className='name text-xs md:text-xl'>VENKATA RAMANA SWAMI MADDULA</h1>
       </div>
       <div className="sub_sub_1 font-bold text-white text-center">
     {/* <button onClick={()=>setPopup(true)} className='name' > */}
-      <button onClick={()=>nav('/About',{state:{username:state.userName}})} className='name'>
+      <button onClick={()=>nav('/About',{state:{username:state.userName}})} className='name text-xs md:text-xl'>
             About Me
           </button>  
             <div className="h-1 mb-4 w-full mx-auto  bg-gray-400 rounded-full" />
@@ -50,7 +50,7 @@ const location = useLocation();
            
 
 <div className="sub_sub_1 font-bold text-white text-center">
-    <button onClick={()=>nav('/Education',{state:{username:state.userName}})}  className='name' >
+    <button onClick={()=>nav('/Education',{state:{username:state.userName}})}  className='name text-xs md:text-xl' >
             Educational Background
           </button>  
             <div className="h-1 mb-4 w-full mx-auto  bg-gray-400 rounded-full" />
@@ -60,7 +60,7 @@ const location = useLocation();
 
 
            <div className="sub_sub_1 font-bold text-white text-center">
-    <button onClick={()=>nav('/Skills_Cert',{state:{username:state.userName}})} className='name' >
+    <button onClick={()=>nav('/Skills_Cert',{state:{username:state.userName}})} className='name text-xs md:text-xl' >
             skills & Certifications
           </button>  
             <div className="h-1 mb-4 w-full mx-auto bg-gray-400 rounded-full" />
@@ -69,7 +69,7 @@ const location = useLocation();
 
 
            <div className="sub_sub_1 font-bold text-white text-center">
-    <button onClick={()=>nav('/Experience',{state:{username:state.userName}})}  className='name' >
+    <button onClick={()=>nav('/Experience',{state:{username:state.userName}})}  className='name text-xs md:text-xl' >
             work Experience
           </button>  
             <div className="h-1 mb-4 w-full mx-auto bg-gray-400 rounded-full" />
