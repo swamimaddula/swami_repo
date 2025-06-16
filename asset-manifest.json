@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/swami_repo/static/css/main.baa1a82f.css",
-    "main.js": "/swami_repo/static/js/main.0868509a.js",
+    "main.css": "/swami_repo/static/css/main.43c06d4c.css",
+    "main.js": "/swami_repo/static/js/main.72736ef0.js",
     "static/js/453.1407b060.chunk.js": "/swami_repo/static/js/453.1407b060.chunk.js",
     "static/media/work_bg.jpg": "/swami_repo/static/media/work_bg.a03e51fcd7915e5c6363.jpg",
     "static/media/skills_bg.jpg": "/swami_repo/static/media/skills_bg.8840c6c95f995a4504f4.jpg",
@@ -9,12 +9,12 @@
     "static/media/bg_3.jpg": "/swami_repo/static/media/bg_3.18930b812877ffa57c20.jpg",
     "static/media/bolt_bg.png": "/swami_repo/static/media/bolt_bg.1d96894b3f573dab4c58.png",
     "index.html": "/swami_repo/index.html",
-    "main.baa1a82f.css.map": "/swami_repo/static/css/main.baa1a82f.css.map",
-    "main.0868509a.js.map": "/swami_repo/static/js/main.0868509a.js.map",
+    "main.43c06d4c.css.map": "/swami_repo/static/css/main.43c06d4c.css.map",
+    "main.72736ef0.js.map": "/swami_repo/static/js/main.72736ef0.js.map",
     "453.1407b060.chunk.js.map": "/swami_repo/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.baa1a82f.css",
-    "static/js/main.0868509a.js"
+    "static/css/main.43c06d4c.css",
+    "static/js/main.72736ef0.js"
   ]
 }
