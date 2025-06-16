@@ -1,6 +1,6 @@
 import { useLocation, useNavigate } from 'react-router-dom';
 import '../App.css';
-import bolt from '../../src/bolt_bg.png';
+import bolt from '../bolt_bg.png';
 import { TypeAnimation } from 'react-type-animation';
 
 

@@ -52,7 +52,7 @@
 }
 
 .work_div{
-  background-image: url('../../../work_bg.jpg');
+  background-image: url('./work_bg.jpg');
    height: 110vh;
   background-size: cover;
   background-position: center;
@@ -62,7 +62,7 @@
 }
 
 .skills_cert{
-  background-image: url('../../../skills_bg.jpg');
+  background-image: url('./skills_bg.jpg');
   height: 150vh;
   background-size: cover;
   background-position: center;
@@ -148,7 +148,7 @@ border-radius: 10px 10px 10px 10px ;
 }
 
 .Education_div{
-  background-image: url('B:\workspace\portfolio\bg_college.jpg');
+  background-image: url('./bg_college.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -165,7 +165,7 @@ border-radius: 10px 10px 10px 10px ;
 }
 
 .Portfolio_main_div{
-  background-image: url('B:\workspace\portfolio\bg_3.jpg');
+  background-image: url('./bg_3.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;  
