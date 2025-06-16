@@ -31,7 +31,7 @@ function Experience() {
             <div className="bg-[#0cdcf7]/50 rounded-xl p-6 w-full max-w-3xl mx-auto shadow-lg mb-6">
                 <h2 className="text-xl font-bold mb-2">Experience</h2>
                 <p className="text-sm md:text-base">
-                    I am a Frontend Developer with 2.8 years of experience at Tata Consultancy Services, specializing in Angular and TypeScript for building dynamic, scalable, and responsive web applications. I have been actively involved in the development and maintenance of B2B and B2C transaction modules for a leading telecommunication client, delivering high-quality solutions aligned with business needs.
+                    I am a Frontend Developer with 3 years of experience at Tata Consultancy Services, specializing in Angular and TypeScript for building dynamic, scalable, and responsive web applications. I have been actively involved in the development and maintenance of B2B and B2C transaction modules for a leading telecommunication client, delivering high-quality solutions aligned with business needs.
                 </p>
             </div>
 
