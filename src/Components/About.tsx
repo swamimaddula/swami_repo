@@ -57,7 +57,7 @@ function About() {
 
       
       <div className="flex justify-center mt-6">
-        <div className="bg-pink-200 rounded-[60px_0_60px_0] shadow-xl p-6 md:p-10 max-w-4xl w-full text-center">
+        <div className="bg-green-200 rounded-[60px_0_60px_0] shadow-xl p-6 md:p-10 max-w-4xl w-full text-center">
           <h2 className="text-2xl md:text-3xl font-bold text-gray-800 mb-6">
             {All_Variables.Contact_Details}
           </h2>
