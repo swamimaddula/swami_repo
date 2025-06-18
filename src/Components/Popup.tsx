@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
+import { All_Variables } from "../Variables";
 
 function Popup(){
         const [popup,setPopup] = useState(false);
@@ -42,13 +43,13 @@ function Apppopup({poptrue}:voidpop){
 </svg>
 </div>
                     <div className=" bg-white p-6 rounded-xl shadow-xl w-96 relative">
-<h1 className='my-6'>Hello.....</h1>
-<p className='my-2'>Can i know your name</p>
+<h1 className='my-6'>{All_Variables.Hello}</h1>
+<p className='my-2'>{All_Variables.pop_note}</p>
 <input type='text' onChange={(e)=>setName(e.target.value)} className=" my-5 w-full px-4 py-2 border border-gray-300 rounded-lg shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder='Input your name '/>
 
 <div>
 
-     <button className="bg-green-600 text-white px-4 py-2 rounded-lg hover:bg-green-700 transition-colors duration-200" onClick={()=>{nav('/Home',{state:{userName:name}})}}>Let's Go...</button>
+     <button className="bg-green-600 text-white px-4 py-2 rounded-lg hover:bg-green-700 transition-colors duration-200" onClick={()=>{nav('/Home',{state:{userName:name}})}}>{All_Variables.Butt}</button>
 
 </div>
 </div>

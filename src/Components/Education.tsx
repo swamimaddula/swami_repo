@@ -2,6 +2,7 @@ import { useLocation, useNavigate } from 'react-router-dom';
 import '../App.css';
 import bolt from '../bolt_bg.png';
 import { TypeAnimation } from 'react-type-animation';
+import { All_Variables } from '../Variables';
 
 function Education() {
   const nav = useNavigate();
@@ -19,7 +20,7 @@ function Education() {
       <div className="absolute top-[10%] left-1/2 transform -translate-x-1/2">
         <h1 className="text-xl md:text-3xl font-semibold text-black text-center">
           <TypeAnimation
-            sequence={[`Welcome ${state.username}, Let's see my Education......`]}
+            sequence={[`Hello ${state.username}, Let's see my Education......`]}
             wrapper="span"
             cursor={false}
             repeat={1}
@@ -32,16 +33,16 @@ function Education() {
                       p-6 md:p-10 w-11/12 md:w-1/2 flex flex-col items-center">
         <div className="flex flex-col gap-4 text-sm md:text-xl font-medium text-black w-full">
           <div className="flex items-center gap-2">
-            <span className="font-semibold">Degree:</span>
-            <span>Bachelor of Technology</span>
+            <span className="font-semibold">{All_Variables.Degree}</span>
+            <span>{All_Variables.Degree_value}</span>
           </div>
           <div className="flex items-center gap-2">
-            <span className="font-semibold">College:</span>
-            <span>Aditya Engineering College, Surampalem</span>
+            <span className="font-semibold">{All_Variables.College}</span>
+            <span>{All_Variables.College_value}</span>
           </div>
           <div className="flex items-center gap-2">
-            <span className="font-semibold">Specialization:</span>
-            <span>Mechanical</span>
+            <span className="font-semibold">{All_Variables.Specialization}</span>
+            <span>{All_Variables.Specializatio_value}</span>
           </div>
         </div>
 

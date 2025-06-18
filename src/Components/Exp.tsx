@@ -2,6 +2,7 @@ import { useState } from "react";
 import { useLocation, useNavigate } from "react-router-dom";
 import { TypeAnimation } from "react-type-animation";
 import { AnimatePresence, motion } from "motion/react";
+import { All_Variables } from "../Variables";
 
 function Experience() {
     const nav = useNavigate();
@@ -29,10 +30,9 @@ function Experience() {
             </h1>
 
             <div className="bg-[#0cdcf7]/50 rounded-xl p-6 w-full max-w-3xl mx-auto shadow-lg mb-6">
-                <h2 className="text-xl font-bold mb-2">Experience</h2>
+                <h2 className="text-xl font-bold mb-2">{All_Variables.Experience.Experience}</h2>
                 <p className="text-sm md:text-base">
-                    I am a Frontend Developer with 3 years of experience at Tata Consultancy Services, specializing in Angular and TypeScript for building dynamic, scalable, and responsive web applications. I have been actively involved in the development and maintenance of B2B and B2C transaction modules for a leading telecommunication client, delivering high-quality solutions aligned with business needs.
-                </p>
+{All_Variables.Experience.Experience_value}                </p>
             </div>
 
             <div className="w-full max-w-3xl mx-auto flex flex-col items-center">
@@ -53,13 +53,13 @@ function Experience() {
                             className="bg-[#0cdcf7] w-full rounded-xl p-6 shadow-lg"
                         >
                             <ul className="list-disc list-inside space-y-2 text-sm md:text-base">
-                                <li>Developing feature-rich UI components using Angular, TypeScript, and NgRx</li>
-                                <li>Writing clean, modular, and maintainable code with TypeScript</li>
-                                <li>Using Git for version control and collaborative development</li>
-                                <li>Performing data handling and backend communication using basic SQL</li>
-                                <li>Debugging and optimizing applications using Browser DevTools</li>
-                                <li>Planning and conducting KT sessions for junior team members</li>
-                                <li>Creating and maintaining technical documentation for smooth handovers</li>
+                                <li>{All_Variables.Experience.Responsibilities}</li>
+                                <li>{All_Variables.Experience.Responsibilities_1}</li>
+                                <li>{All_Variables.Experience.Responsibilities_2}</li>
+                                <li>{All_Variables.Experience.Responsibilities_3}</li>
+                                <li>{All_Variables.Experience.Responsibilities_4}</li>
+                                <li>{All_Variables.Experience.Responsibilities_5}</li>
+                                <li>{All_Variables.Experience.Responsibilities_6}</li>
                             </ul>
                         </motion.div>
                     )}

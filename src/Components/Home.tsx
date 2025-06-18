@@ -3,6 +3,7 @@ import logo from './logo.svg';
 import '../App.css';
 import '../index.css';
 import { Link, Route, Router, useLocation, useNavigate } from 'react-router-dom';
+import { All_Variables } from '../Variables';
 
 function Home() {
 
@@ -37,12 +38,11 @@ const location = useLocation();
 <div className='sub_text'>
 
       <div className="sub_sub font-bold text-white text-center">
-        <h1 className='name text-xs md:text-xl'>VENKATA RAMANA SWAMI MADDULA</h1>
+        <h1 className='name text-xs md:text-xl'>{All_Variables.Name}</h1>
       </div>
       <div className="sub_sub_1 font-bold text-white text-center">
-    {/* <button onClick={()=>setPopup(true)} className='name' > */}
       <button onClick={()=>nav('/About',{state:{username:state.userName}})} className='name text-xs md:text-xl'>
-            About Me
+            {All_Variables.About_me}
           </button>  
             <div className="h-1 mb-4 w-full mx-auto  bg-gray-400 rounded-full" />
 
@@ -51,7 +51,7 @@ const location = useLocation();
 
 <div className="sub_sub_1 font-bold text-white text-center">
     <button onClick={()=>nav('/Education',{state:{username:state.userName}})}  className='name text-xs md:text-xl' >
-            Educational Background
+            {All_Variables.Education_head}
           </button>  
             <div className="h-1 mb-4 w-full mx-auto  bg-gray-400 rounded-full" />
 
@@ -61,7 +61,7 @@ const location = useLocation();
 
            <div className="sub_sub_1 font-bold text-white text-center">
     <button onClick={()=>nav('/Skills_Cert',{state:{username:state.userName}})} className='name text-xs md:text-xl' >
-            skills & Certifications
+            {All_Variables.skill_cert}
           </button>  
             <div className="h-1 mb-4 w-full mx-auto bg-gray-400 rounded-full" />
 
@@ -70,7 +70,7 @@ const location = useLocation();
 
            <div className="sub_sub_1 font-bold text-white text-center">
     <button onClick={()=>nav('/Experience',{state:{username:state.userName}})}  className='name text-xs md:text-xl' >
-            work Experience
+            {All_Variables.work_Experience}
           </button>  
             <div className="h-1 mb-4 w-full mx-auto bg-gray-400 rounded-full" />
 
@@ -80,7 +80,6 @@ const location = useLocation();
 
           
       </div>
-{/* {popup && <AboutPopup popupValue={()=>setPopup(false)}/>} */}
 
 
 
@@ -94,36 +93,6 @@ const location = useLocation();
 
   );
 }
-
-// interface props{
-//   popupValue: ()=> void;
-
-// }
-
-// function AboutPopup({popupValue}:props){
-
-// const [name,setName]= useState('')
-// const nav = useNavigate();
-//  const GotoAbout =()=>{
-// nav('/',{state:{username:name}})
-//  }
-
-
-//   return(
-//       <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50 z-50">
-//               <div className="bg-white p-6 rounded-xl shadow-xl w-96 relative">
-//                 <button onClick={()=>popupValue()} className='absolute right-4'>x</button>
-//             <h1 className='mt-5'>Hi....</h1>
-//             <p>Please enter Your Details</p>
-//             <input   className=" my-5 w-full px-4 py-2 border border-gray-300 rounded-lg shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500"
-//               type='text' placeholder='Please enter you name ' onChange={(e)=>setName(e.target.value)}/>
-//             <div >
-//             <button className="bg-green-600 text-white px-4 py-2 rounded-lg hover:bg-green-700 transition-colors duration-200" onClick={GotoAbout}>Let's Go...</button>
-//             </div>
-// </div>
-// </div>
-//   );
-// }
 
 
 

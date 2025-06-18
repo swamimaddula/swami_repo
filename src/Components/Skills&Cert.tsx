@@ -2,6 +2,7 @@ import { useLocation, useNavigate } from "react-router-dom";
 import * as motion from "motion/react-client";
 import '../App.css';
 import { TypeAnimation } from "react-type-animation";
+import { All_Variables } from "../Variables";
 
 function Skills_Cert() {
     const nav = useNavigate();
@@ -34,14 +35,14 @@ function Skills_Cert() {
                     whileTap={{ scale: 0.98 }}
                     className="bg-teal-200 rounded-xl shadow-lg p-6 w-full"
                 >
-                    <h5 className="font-semibold text-lg mb-4">Frontend</h5>
+                    <h5 className="font-semibold text-lg mb-4">{All_Variables.skill_cert_array.Frontend}</h5>
                     <ul className="list-disc list-inside space-y-2 text-sm md:text-base">
-                        <li>HTML5 - Used to create and structure web pages.</li>
-                        <li>CSS3 - For styling and formatting HTML elements.</li>
-                        <li>Angular / TypeScript - Scalable, component-driven apps.</li>
-                        <li>Bootstrap - Framework for responsive UIs.</li>
-                        <li>Tailwind - Utility-first CSS framework.</li>
-                    </ul>
+                                            <li>{All_Variables.skill_cert_array.Frontend_1}</li>
+                                            <li>{All_Variables.skill_cert_array.Frontend_2}</li>
+                                            <li>{All_Variables.skill_cert_array.Frontend_3}</li>
+                                            <li>{All_Variables.skill_cert_array.Frontend_4}</li>
+                                            <li>{All_Variables.skill_cert_array.Frontend_5}</li>               
+                                        </ul>
                 </motion.div>
 
                 <motion.div
@@ -49,8 +50,8 @@ function Skills_Cert() {
                     whileTap={{ scale: 0.98 }}
                     className="bg-indigo-300 rounded-xl shadow-lg p-6 w-full"
                 >
-                    <h5 className="font-semibold text-lg mb-4">Database</h5>
-                    <p className="text-sm md:text-base">SQL - A domain-specific language used to manage and manipulate relational databases.</p>
+                    <h5 className="font-semibold text-lg mb-4">{All_Variables.skill_cert_array.Database}</h5>
+                    <p className="text-sm md:text-base">{All_Variables.skill_cert_array.Database_1}</p>
                 </motion.div>
 
                 <motion.div
@@ -58,8 +59,8 @@ function Skills_Cert() {
                     whileTap={{ scale: 0.98 }}
                     className="bg-pink-300 rounded-xl shadow-lg p-6 w-full"
                 >
-                    <h5 className="font-semibold text-lg mb-4">State Management</h5>
-                    <p className="text-sm md:text-base">NGRX - Reactive state management for Angular using Redux & RxJS.</p>
+                    <h5 className="font-semibold text-lg mb-4">{All_Variables.skill_cert_array.state_manegment}</h5>
+                    <p className="text-sm md:text-base">{All_Variables.skill_cert_array.state_manegment_1}</p>
                 </motion.div>
 
                 <motion.div
@@ -67,12 +68,12 @@ function Skills_Cert() {
                     whileTap={{ scale: 0.98 }}
                     className="bg-violet-300 rounded-xl shadow-lg p-6 w-full"
                 >
-                    <h5 className="font-semibold text-lg mb-4">Tools</h5>
+                    <h5 className="font-semibold text-lg mb-4">{All_Variables.skill_cert_array.Tools}</h5>
                     <ul className="list-disc list-inside space-y-2 text-sm md:text-base">
-                        <li>Postman - For testing RESTful APIs.</li>
-                        <li>ALM - Application Lifecycle Management tools.</li>
-                        <li>GIT - Distributed version control system.</li>
-                        <li>Browser DevTools - Inspect/debug web pages.</li>
+                        <li>{All_Variables.skill_cert_array.Tools_1}</li>
+                        <li>{All_Variables.skill_cert_array.Tools_2}</li>
+                        <li>{All_Variables.skill_cert_array.Tools_3}</li>
+                        <li>{All_Variables.skill_cert_array.Tools_4}</li>
                     </ul>
                 </motion.div>
             </div>

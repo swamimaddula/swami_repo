@@ -49,18 +49,49 @@ function About() {
             {All_Variables.About_me}
           </h2>
           <p className="text-sm md:text-base text-gray-700 leading-relaxed">
-            I am a passionate Frontend Developer with nearly 3 years of
-            experience specializing in Angular and TypeScript. I excel at
-            building responsive, user-friendly, and high-performance web
-            applications. With strong skills in component-based architecture,
-            state management, and RESTful API integration, I deliver clean and
-            maintainable code. I enjoy collaborating with cross-functional teams
-            to create seamless user experiences and continuously improve my
-            technical skills to stay up-to-date with the latest frontend
-            technologies. Currently, I am contributing to impactful projects at
-            TATA Consultancy Services and eager to take on new challenges in
-            frontend development.
+              {All_Variables.About_me_Description}
           </p>
+        </div>
+      </div>
+
+
+      
+      <div className="flex justify-center mt-6">
+        <div className="bg-pink-200 rounded-[60px_0_60px_0] shadow-xl p-6 md:p-10 max-w-4xl w-full text-center">
+          <h2 className="text-2xl md:text-3xl font-bold text-gray-800 mb-6">
+            {All_Variables.Contact_Details}
+          </h2>
+          <div className="mb-2">
+            <span className="text-sm md:text-base text-gray-700 leading-relaxed">
+              {All_Variables.Phone_number}
+
+            </span>
+             <span className="text-sm md:text-base text-gray-700 leading-relaxed">
+              {All_Variables.Phone_number_value}
+          
+          </span>
+           </div>
+            <div className="mb-2">
+            <span className="text-sm md:text-base text-gray-700 leading-relaxed">
+              {All_Variables.Mail_id}
+
+            </span>
+             <span className="text-sm md:text-base text-gray-700 leading-relaxed">
+              {All_Variables.Mail_id_value}
+          
+          </span>
+           </div>
+            <div className="mb-2">
+            <span className="text-sm md:text-base text-gray-700 leading-relaxed">
+              {All_Variables.Address}
+
+            </span>
+             <span className="text-sm md:text-base text-gray-700 leading-relaxed">
+              {All_Variables.Address_value}
+          
+          </span>
+          </div>
+         
         </div>
       </div>
     </div>
