@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/swami_repo/static/css/main.4ab17c46.css",
-    "main.js": "/swami_repo/static/js/main.11b5432d.js",
+    "main.js": "/swami_repo/static/js/main.0160c7a5.js",
     "static/js/453.1407b060.chunk.js": "/swami_repo/static/js/453.1407b060.chunk.js",
     "static/media/work_bg.jpg": "/swami_repo/static/media/work_bg.a03e51fcd7915e5c6363.jpg",
     "static/media/skills_bg.jpg": "/swami_repo/static/media/skills_bg.8840c6c95f995a4504f4.jpg",
@@ -10,11 +10,11 @@
     "static/media/bolt_bg.png": "/swami_repo/static/media/bolt_bg.1d96894b3f573dab4c58.png",
     "index.html": "/swami_repo/index.html",
     "main.4ab17c46.css.map": "/swami_repo/static/css/main.4ab17c46.css.map",
-    "main.11b5432d.js.map": "/swami_repo/static/js/main.11b5432d.js.map",
+    "main.0160c7a5.js.map": "/swami_repo/static/js/main.0160c7a5.js.map",
     "453.1407b060.chunk.js.map": "/swami_repo/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4ab17c46.css",
-    "static/js/main.11b5432d.js"
+    "static/js/main.0160c7a5.js"
   ]
 }
