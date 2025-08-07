@@ -3,8 +3,8 @@ import { Tools } from "react-bootstrap-icons";
 
 export const All_Variables={
 Name:"VENKATA RAMANA SWAMI MADDULA",
-skill_cert:"skills & Certifications",
-work_Experience:"work Experience",
+skill_cert:"Skills & Certifications",
+work_Experience:"Work Experience",
   Close :"Close",
   Hello :"Hello.....",
   pop_note : "Can i know your name",
