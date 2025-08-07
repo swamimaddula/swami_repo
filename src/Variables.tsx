@@ -3,7 +3,7 @@ import { Tools } from "react-bootstrap-icons";
 
 export const All_Variables={
 Name:"VENKATA RAMANA SWAMI MADDULA",
-skill_cert:"Skills & Certifications",
+skill_cert:"Skills",
 work_Experience:"Work Experience",
   Close :"Close",
   Hello :"Hello.....",
