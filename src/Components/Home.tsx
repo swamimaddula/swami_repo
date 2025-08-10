@@ -4,6 +4,12 @@ import '../App.css';
 import '../index.css';
 import { Link, Route, Router, useLocation, useNavigate } from 'react-router-dom';
 import { All_Variables } from '../Variables';
+// import { style } from 'motion/dist/react-client';
+
+
+
+
+
 
 function Home() {
 
@@ -16,6 +22,7 @@ function Home() {
 const nav = useNavigate();
 const [name,setName] = useState('')
 
+
 const location = useLocation();
   const state = location.state
 
@@ -24,9 +31,26 @@ const location = useLocation();
 
   return (
     
- 
-    <div  className="Portfolio_main_div flex justify-end">
+ <div>
+ {/* {React.createElement("marquee", { style: { color: "red" } }, "This is scrolling text")} */}
 
+
+
+{React.createElement("marquee",  { style: { } },
+  React.createElement("a",{style:{color:"blue", marginRight: "50%"},href: "https://www.linkedin.com/in/swami-maddula-353a20303/", target :"_blank"},  "Click here for more info : Linkedin............"),
+  React.createElement("a",{style:{color:"green"},href: "https://www.linkedin.com/in/swami-maddula-353a20303/", target :"_blank"},  "Click here for more info : Linkedin...........")
+)}
+{/* {React.createElement(
+  "marquee",
+  { style: { color: "red" } },
+  React.createElement(
+    "a",
+    { href: "https://example.com", target: "_blank", style: { color: "red", textDecoration: "none" } },
+    "Click here for more info"
+  )
+)} */}
+
+    <div  className="Portfolio_main_div flex justify-end">
 
            <div className='icon' onClick={()=>nav(-1)}>
             <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" className="bi bi-arrow-left-square" viewBox="0 0 16 16">
@@ -88,7 +112,7 @@ const location = useLocation();
     </div>
 
 
-
+</div>
 
 
   );
